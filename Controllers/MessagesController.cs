@@ -27,7 +27,7 @@ namespace Bot_Application1
         public virtual async Task<HttpResponseMessage> Post([FromBody] Activity activity)
         {
             ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
-            const string emotionApiKey = "0ff0835aadf24ccfb62571df22cf458e";
+            const string emotionApiKey = "YOUR KEY";
 
             //Vision SDK classes
             EmotionServiceClient visionClient = new EmotionServiceClient(emotionApiKey);
