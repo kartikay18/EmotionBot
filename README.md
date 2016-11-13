@@ -1,3 +1,3 @@
 # EmotionBot
-    Based upon Microsofts Bot Framework
+    Incorporated Emotion API of Cognitive Services into the Microsofts Bot Framework
     
